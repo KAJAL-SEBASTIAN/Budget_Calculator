@@ -1,0 +1,126 @@
+.banner{
+    width: 100%;
+    height: 800px;
+    background-image: url('https://cdn.pixabay.com/photo/2013/01/26/07/22/treasure-76214_1280.jpg' );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    border: 3px ridge rgb(224, 224, 221);
+    top: 70px;
+    left: 5%;
+    box-shadow: 3px 4px 6px rgb(12, 12, 11);
+    width: 440px;
+    height: 100px;
+  color: beige;
+  text-align: center;
+  border-image: linear-gradient(45deg, rgb(212, 107, 58), rgb(226, 167, 5)) 1;
+  clip-path: inset(0px round 10px);
+  animation: huerotate 6s infinite linear;
+  filter: hue-rotate(360deg);
+}
+@keyframes huerotate {
+  0% {
+      filter: hue-rotate(0deg);
+  }
+  100% {
+      filter: hue-rorate(360deg);
+  }
+}
+#deposit{
+    position: absolute;
+    border: 2px solid rgb(224, 224, 221);
+    top: 290px;
+    left: 5%;
+    box-shadow: 3px 4px 6px rgb(12, 12, 11);
+    width: 500px;
+    height: 140px;
+  color: bisque;
+}
+
+.rotate {
+    animation: rotation 2s infinite linear;
+    position: absolute;
+    top: 170px;
+    left: 3%;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(259deg);
+    }
+  }
+  #welcome{
+    position: absolute;
+    border: 2px solid rgb(255, 255, 250);
+    top: 150px;
+    left: 50%;
+    box-shadow: 3px 4px 6px rgb(14, 13, 13);
+    width: 300px;
+    height: 250px;
+  color:bisque;
+  text-align: center;
+}
+#welcomes{
+    position: absolute;
+    border: 2px solid rgb(255, 255, 246);
+    top: 150px;
+    left: 73%;
+    box-shadow: 3px 4px 6px rgb(12, 12, 11);
+    width: 300px;
+    height: 250px;
+  color:bisque;
+  text-align: center;
+}
+#savings{
+    position: absolute;
+    border: 2px solid rgb(10, 10, 10);
+    top: 480px;
+    left: 58%;
+    box-shadow: 3px 4px 6px rgb(12, 12, 11);
+    width: 200px;
+    height: 140px;
+  color: bisque;
+  background-color: rgb(141, 62, 9);
+  text-align: center;
+}
+#spent{
+    position: absolute;
+    border: 2px solid rgb(34, 34, 33);
+    top: 480px;
+    left: 73%;
+    box-shadow: 3px 4px 6px rgb(12, 12, 11);
+    width: 200px;
+    height: 140px;
+  color: bisque;
+  background-color: rgb(46, 12, 12);
+  text-align: center;
+}
+#table1{
+    position: absolute;
+    top: 450px;
+    left: 5%;
+   width: 400px;
+    height: 100px;
+  color:bisque;
+  text-align: center;
+ 
+}
+
+  
+#table2{
+    position: absolute;
+    top: 590px;
+    left: 5%;
+   width: 400px;
+    height: 100px;
+  color:bisque;
+  text-align: center;
+  
+}

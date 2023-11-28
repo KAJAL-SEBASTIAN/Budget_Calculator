@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="./register.css">
+<script src="./register.js"></script>
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+</head>
+<body>
+    <div id="home" class="banner">
+ 
+    </div>
+    <div class="overlay">
+<h1>Coin Canvas - Budget Calculator</h1>
+    </div>
+    <div class="row">
+            <div class="col-4">
+               
+            </div>
+            <div class="col-4">
+           
+            </div>
+            <center>
+            <div id="deposit" class="col-4" style="background-color: bisque; border-radius: 5%;width: 330px;height: 400px;margin-left: 850px;">  
+ <h1 style="color:rgb(179, 114, 35);margin: 10px;">Register</h1>
+                <input id="usname" type="text" placeholder="Enter Username" class="form-control" style="width: 280px;margin-top: 35px; border-radius: 16px;" >
+                <input id="email" type="email" placeholder="Enter Email Id" class="form-control" style="width: 280px; margin-top: 35px;border-radius: 16px;" >
+                <input id="pswdreg" type="password" placeholder="Enter Password" class="form-control" style="width: 280px; margin-top: 35px;border-radius: 16px;" >
+
+           <center> <button onclick="register()" class="btn m-4" style="background-color: burlywood;">Register</button></center>
+             <a style="color:black;text-decoration: none;" href="http://127.0.0.1:5500/04_JAVASCRIPT/Local%20Storage/BUDGET%20CALCULATOR/login.html"> Sign in</a>
+            </div>
+        <center></center>
+     
+        
+          
+    </div>
+    
+</body>
+</html>
