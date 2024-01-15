@@ -16,7 +16,6 @@ function login(){
     else{
         alert('Login failed! Wrong email address')
     }
-  elogin.value=""
-  pslogin.value=""
+ 
     
 }

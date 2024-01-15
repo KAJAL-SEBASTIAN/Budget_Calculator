@@ -13,7 +13,8 @@
     top: 230px;
     left: 5%;
     box-shadow: 3px 4px 6px rgb(12, 12, 11);
- 
+    width: 330px;
+    height: 400px;
   
 }
 .overlay{
@@ -38,4 +39,45 @@
     100% {
         filter: hue-rorate(360deg);
     }
+}
+
+@media screen and (max-width:400px){
+    .banner{
+        width: 400px;
+        height: 330px;
+        background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230718/pngtree-d-rendered-illustration-of-financial-investment-money-bag-with-coins-for-image_3909623.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+       
+    }
+    .overlay{
+        position: absolute;
+        border: 3px ridge rgb(224, 224, 221);
+        top: 15px;
+        left: 6px;
+        box-shadow: 3px 4px 6px rgb(12, 12, 11);
+        width: 380px;
+        height: 80px;
+      color: beige;
+      text-align: center;
+      border-image: linear-gradient(45deg, rgb(17, 57, 236), rgb(226, 130, 5)) 1;
+      clip-path: inset(0px round 10px);
+      animation: huerotate 6s infinite linear;
+      filter: hue-rotate(360deg);
+    }
+    #deposit{
+        position: absolute;
+        border: 2px ridge rgb(224, 224, 221);
+        top: 270px;
+        left: 0px;
+        box-shadow: 3px 4px 6px rgb(12, 12, 11);
+        width: 400px;
+        height: 380px;
+        margin-left: 0px;
+      
+    }
+   
+   
 }
